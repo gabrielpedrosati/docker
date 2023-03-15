@@ -132,3 +132,12 @@ Verificando versão do docker-compose
 docker-compose --version
 ```
 
+Construir containers
+```
+docker-compose up
+```
+
+Para containers
+```
+docker-compose down
+```
