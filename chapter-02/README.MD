@@ -18,3 +18,4 @@
 ### 6. Kill your container
 - Run on terminal: docker stop <container_name>
 
+
