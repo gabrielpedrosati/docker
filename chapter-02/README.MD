@@ -18,4 +18,13 @@
 ### 6. Kill your container
 - Run on terminal: docker stop <container_name>
 
+## Attached and Detached Mode
+- Attached mode 
+    - Means that we are listening to the container output.
+    - By default, `docker run` uses attached mode. 
+    - We can attach to a running container, running `docker attach <container_name>`.
 
+- Detached Mode
+    - Means that we are not listening to the container output.
+    - By default, `docker start` uses detached mode.
+    - We can see the container outputs with `docker logs <container_name>`.
